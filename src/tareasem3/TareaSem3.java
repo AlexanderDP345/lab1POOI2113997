@@ -80,6 +80,50 @@ System.out.println("$");
 
 
 //RESULTADO:    *
+
+
+
+
+  
+        int al = 100;
+        int a2 = 200;
+
+        if (al > 100 && a2 <= 200)
+            System.out.print(al + " " + a2 + " " + (al + a2)); 
+        else
+            System.out.print(al + " " + a2 + " " + (2 * al - a2));
+        
+//Resultado: 100 200 0   
+       
+//---------------------------------------------------------------------------------------------------//
+int num = 5;
+    //Agregarle un valor a num
+
+
+if (num > 0 && num % 2 != 0) {
+    System.out.println("true");
+} else {
+    System.out.println("false");
+}
+        int numA = 2;
+        int numB = 3;
+        //Numeros positivos//
+        //Resultado True
+if (numA > 0 && numB > 0) {
+    System.out.println("true");
+} else {
+    System.out.println("false");
+}
+
+if ((numA > 0 && numB > 0) || (numA < 0 && numB < 0)) {
+    System.out.println("true");
+} else {
+    System.out.println("false");
+}
+//NumA y NumB Tienen los mismo signos, por lo tanto dara true
+
+
+
     }
     
 }
