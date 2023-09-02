@@ -27,6 +27,59 @@ else
     System.out.println("$");
 
 // Resultado (*) //
+
+      if(x<y)
+System.out.println("####");
+        else
+System.out.println("&&&&"); 
+System.out.println("****");
+       
+//RESULTADO:#### y ****//
+       
+       
+if(x>y)
+System.out.println("####");
+else { 
+System.out.println("&&&&"); 
+System.out.println("****");
+}
+     
+///RESULTADO:&&&& y ****//
+
+if (++x > y++ || x-->0) 
+    z ++;
+else
+    z --;
+System.out.println(x+"+y+"+z);
+
+///RESULTADO: 1+y+4
+
+if(x<y){
+System.out.println("####");
+System.out.println("****");
+}
+else
+System.out.println("&&&&");
+
+
+///RESULTADO:####
+//           ****
+
+if ('x' > 'y' || 66> (int)('A'))
+System.out.println("#*#");
+
+
+///RESULTADO:(#*#)
+
+if (x < z)
+System.out.println("*"); 
+else if(x==z) 
+System.out.println("&");
+else
+System.out.println("$");
+
+
+//RESULTADO:    *
     }
     
 }
